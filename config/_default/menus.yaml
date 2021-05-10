@@ -1,0 +1,10 @@
+main:
+  - name: 文章
+    url: /posts/
+    weight: 1
+  - name: Go 源码与设计
+    url: /docs/
+    weight: 2
+  - name: 关于我
+    url: "#about"
+    weight: 3
