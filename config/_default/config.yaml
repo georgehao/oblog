@@ -6,7 +6,7 @@ title: HHFCodeRv
 # Uncomment when installing using Hugo Modules
 theme: github.com/wangchucheng/hugo-eureka
 
-paginate: 3
+paginate: 5
 copyright: >
   &copy; 2021 <a href="https://www.wangchucheng.com/">haohongfan</a> <a href="">京ICP备17041575号</a>
 enableEmoji: true
