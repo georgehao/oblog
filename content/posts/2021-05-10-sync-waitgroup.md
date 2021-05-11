@@ -2,6 +2,7 @@
 title: "你应该知道的 Go WaitGroup 剖析"
 date: 2021-04-01T09:57:16+08:00
 lastmod: 2021-04-01T09:57:16+08:00
+toc: true
 ---
 
 hi，大家好，我是haohongfan。
