@@ -3,5 +3,5 @@ main:
     url: /posts/
     weight: 1
   - name: Go 源码分析与实战
-    url: /docs/gohandbook
+    url: https://www.haohongfan.com/docs/gohandbook/
     weight: 2
