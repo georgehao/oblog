@@ -19,7 +19,7 @@ draft: false
 4. [WaitGroup](./2021-05-10-sync-waitgroup)
 5. [Pool](./2021-05-10-sync-pool)
 
-![gzh](https://images.haohongfan.com/hhf11.png)
+![gzh](https://images.haohongfan.com/gzh1.png)
 
 ## 版权
 
