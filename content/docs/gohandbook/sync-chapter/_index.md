@@ -20,3 +20,9 @@ draft: false
 5. [Pool](./2021-05-10-sync-pool)
 
 ![gzh](https://images.haohongfan.com/hhf11.png)
+
+## 版权
+
+以上内容均不得复制用于商业用途或发行
+
+© 2020-2021 haohongfan. Licensed under CC-BY-NC-ND 4.0

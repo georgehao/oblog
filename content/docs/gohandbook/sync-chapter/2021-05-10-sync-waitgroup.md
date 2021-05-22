@@ -165,3 +165,9 @@ func main() {
 WaitGroup 的剖析到这里基本就结束了。有什么想跟我交流的，欢迎评论区留言。
 
 ![gzh](https://images.haohongfan.com/hhf11.png)
+
+## 版权
+
+以上内容均不得复制用于商业用途或发行
+
+© 2020-2021 haohongfan. Licensed under CC-BY-NC-ND 4.0
