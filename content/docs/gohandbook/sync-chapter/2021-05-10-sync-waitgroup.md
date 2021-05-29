@@ -1,5 +1,5 @@
 ---
-title: "WaitGroup"
+title: "最清晰易懂的 Go WaitGroup 源码剖析"
 date: 2021-04-01T09:57:16+08:00
 lastmod: 2021-04-01T09:57:16+08:00
 authors: hhf
