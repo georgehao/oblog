@@ -12,7 +12,7 @@ social:
     iconPack: fab
     url: https://github.com/georgehao
 
-weight: 1
+weight: 2
 widget:
   handler: about
 
@@ -36,5 +36,3 @@ widget:
     # Options: fixed, local, scroll.
     attachment: 
 ---
-
-![gzh](https://images.haohongfan.com/gzh1.png)

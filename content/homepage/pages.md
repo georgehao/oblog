@@ -1,5 +1,4 @@
 ---
-title: 近期文章
 draft: false
 # Section you want to display
 section: posts
@@ -8,7 +7,7 @@ count: 5
 # Options: card, plain and masonry.
 style: plain
 
-weight: 2
+weight: 1
 widget:
   handler: pages
 
