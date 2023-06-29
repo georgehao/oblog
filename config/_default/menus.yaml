@@ -1,0 +1,7 @@
+main:
+  - name: 文章
+    url: /posts/
+    weight: 1
+  - name: Go 源码分析与实战
+    url: https://gohandbook1.haohongfan.com
+    weight: 2
