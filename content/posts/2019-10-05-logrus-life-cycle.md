@@ -9,7 +9,7 @@ categories: [golang]
 
 <!--more-->
 
-[上一篇](https://www.haohongfan.com/post/2019-06-11-logurs-1/)介绍logrus的基本用法, 本篇文章介绍logrus的整个生命周期
+[上一篇](https://georgehao.github.io/post/2019-06-11-logurs-1/)介绍logrus的基本用法, 本篇文章介绍logrus的整个生命周期
 
 ```golang
 func main() {

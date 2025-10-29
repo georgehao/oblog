@@ -14,7 +14,7 @@ logrus 是 golang 一款非常优秀的日志框架, 其优点非常明显:
 * 组件化的开发思路
 * 灵活的输出方式
 
-但是, 性能终究是忍痛舍弃 logrus 的“阿喀琉斯之踵”, 前面的[文章](https://www.haohongfan.com/post/2019-10-05-logrus-life-cycle/)深入研究了 logrus 性能低的原因
+但是, 性能终究是忍痛舍弃 logrus 的“阿喀琉斯之踵”, 前面的[文章](https://georgehao.github.io/post/2019-10-05-logrus-life-cycle/)深入研究了 logrus 性能低的原因
 
 目前 golang 日志库的大众选择主要集中在: logrus, zap, zerolog. zap 和 zerolog 的性能都是优秀的, 但是从用法习惯上我更倾向于 zap.
 
@@ -81,5 +81,5 @@ func main() {
 
 ## 参考
 
-1. [Logrus源码阅读(1)--基本用法](https://www.haohongfan.com/post/2019-06-11-logurs-1/)
-2. [Logrus源码阅读(2)--logrus生命周期](https://www.haohongfan.com/post/2019-10-05-logrus-life-cycle/)
+1. [Logrus源码阅读(1)--基本用法](https://georgehao.github.io/post/2019-06-11-logurs-1/)
+2. [Logrus源码阅读(2)--logrus生命周期](https://georgehao.github.io/post/2019-10-05-logrus-life-cycle/)

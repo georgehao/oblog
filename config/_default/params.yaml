@@ -1,81 +1,63 @@
-mainSections:
-  - posts
-description: Eureka is a elegant and powerful theme for Hugo.
+env: production
+author: haohongfan
+defaultTheme: auto
+disableThemeToggle: false
 
-repoEditURL:
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+disableSpecial1stPost: false
+disableScrollToTop: false
+comments: false
+hidemeta: false
+hideSummary: false
+showtoc: true
+tocopen: false
 
-dateFormat:
+assets:
+  disableHLJS: false
+  disableFingerprinting: false
+  favicon: "images/icon.png"
+  favicon16x16: "images/icon.png"
+  favicon32x32: "images/icon.png"
+  apple_touch_icon: "images/icon.png"
 
-titleSeparator:
+label:
+  text: "HHFCodeRv"
+  icon: /images/icon.png
+  iconHeight: 35
 
-# Options: auto, light and dark. Default is auto.
-colorScheme:
+profileMode:
+  enabled: false
+  title: HHFCodeRv
+  subtitle: "技术博客"
+  imageUrl: "images/icon.png"
+  imageWidth: 120
+  imageHeight: 120
 
-# Colors and fonts. Default style is data/styles/default.yaml/
-style:
+homeInfoParams:
+  Title: "欢迎来到 HHFCodeRv"
+  Content: 专注于技术分享与交流
 
-# E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-siteType: Person
-icon: images/icon.png
-publisherName: WANG Chucheng
-publisherLogo:
+socialIcons:
+  - name: github
+    url: "https://github.com/"
 
-highlight:
-  handler: highlightjs
+cover:
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
 
-  highlightjs:
-    # highlight.js doesn't bundle every language. So please specify additional languages you want here.
-    # See https://github.com/highlightjs/cdn-release/tree/main/build/languages for available languages.
-    languages:
-      - dart
-    # See https://github.com/highlightjs/cdn-release/tree/main/build/styles for available styles.
-    style: base16/solarized-light
-
-math:
-  handler: katex
-
-  # katex:
-  #   # Browse https://katex.org/docs/options.html to see the options available.
-  #   # KaTeX's Auto-render ignores `displayMode` property of the options, so this property will not work.
-  #   # You can list the key and value you want as below.
-  #   # Because Hugo's config params are case-insensitive, you need to add `-` or `_` before the uppercase letters.
-  #   # For example, `throwOnError` should be written as `throw-On-Error` or other acceptable formats.
-  #   leqno:
-
-comment:
-  # Options: disqus, commento, valine and utterances.
-  handler:
-
-  # disqus:
-  #   shortname:
-
-  # utterances:
-  #   # Browse https://utteranc.es/ to see the options available.
-  #   # If you want the color scheme of utterances to follow eureka's, you can set `theme: eureka`.
-  #   repo:
-  #   issue-term:
-  #   theme:
-
-  # commento:
-  #   # If self-hosting, please enter the url (e.g. https://commento.example.com) here. Otherwise leave empty.
-  #   url:
-
-  # valine:
-  #   # Browse https://valine.js.org/en/configuration.html to see the options available.
-  #   # You can list the key and value you want as below.
-  #   # Because Hugo's config params are case-insensitive, you need to add `-` or `_` before the uppercase letters.
-  #   # For example, `appId` should be written as `app-Id` or other acceptable formats.
-  #   app-Id:
-  #   app-Key:
-
-diagram:
-  handler: mermaid
-
-  # mermaid:
-  #   # Browse https://mermaid-js.github.io/mermaid/#/Setup to see the options available.
-  #   # You can list the key and value you want as below.
-  #   # Because Hugo's config params are case-insensitive, you need to add `-` or `_` before the uppercase letters.
-  #   # For example, `diagramPadding` should be written as `diagram-Padding` or other acceptable formats.
-  #   theme: 
-  #   flowchart:
-  #     diagram-padding:
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"]

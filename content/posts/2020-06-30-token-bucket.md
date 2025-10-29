@@ -9,7 +9,7 @@ categories: [golang, kratos]
 author: ""
 ---
 
-[上一篇](https://www.haohongfan.com/post/2020-06-27-leaky-bucket/)说到 Leaky Bucket 能限制客户端的访问速率, 但是无法应对突发流量, 本质原因就是漏斗桶只是为了保证固定时间内通过的流量是一样的. 面对这种情况, 本篇文章继续介绍另外一种限流器: Token Bucket -- 令牌桶
+[上一篇](https://georgehao.github.io/post/2020-06-27-leaky-bucket/)说到 Leaky Bucket 能限制客户端的访问速率, 但是无法应对突发流量, 本质原因就是漏斗桶只是为了保证固定时间内通过的流量是一样的. 面对这种情况, 本篇文章继续介绍另外一种限流器: Token Bucket -- 令牌桶
 
 ## 什么是 Token Bucket
 
